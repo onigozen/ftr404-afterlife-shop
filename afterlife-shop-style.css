@@ -405,8 +405,8 @@
 
 /* Tag Colors */
 .t-common         { background: var(--r-com); }
-.t-green          { background: var(--r-unc); }
-.t-blue           { background: var(--r-med); color: #fff; }
+.t-green, .t-free          { background: var(--r-unc); }
+.t-blue, .t-event           { background: var(--r-med); color: #fff; }
 .t-rare           { background: var(--r-rar); color: #fff; }
 .t-epic           { background: var(--r-epi); color: #fff; }
 .t-legend,
