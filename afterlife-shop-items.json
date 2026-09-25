@@ -3,7 +3,7 @@
   "weapons": [
     {
       "title": "MALORIAN ARMS 3516",
-      "price": "4500€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/zqwBywt.png",
       "lore": "Сделан на заказ для Джонни Сильверхенда.",
@@ -11,7 +11,7 @@
     },
     {
       "title": "ГОРДОСТЬ",
-      "price": "900€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/fHWQIEL.png",
       "lore": "Всем пистолетам пистолет.",
@@ -19,7 +19,7 @@
     },
     {
       "title": "АРХАНГЕЛ",
-      "price": "1600€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/2cK7udj.png",
       "lore": "Шедевр, который не должен пылиться за стеклом.",
@@ -27,7 +27,7 @@
     },
     {
       "title": "КРЭШ",
-      "price": "950€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/elBl5UB.png",
       "lore": "Оружие для тех, кто не промахивается.",
@@ -35,7 +35,7 @@
     },
     {
       "title": "НАДЗОР",
-      "price": "1000€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/fdV56hx.png",
       "lore": "Снайперская винтовка Панам.",
@@ -43,7 +43,7 @@
     },
     {
       "title": "ЛИЗЗИ",
-      "price": "1200€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/CdlP80P.png",
       "lore": "Напоминает игрушку, но стреляет как настоящий.",
@@ -51,7 +51,7 @@
     },
     {
       "title": "ЗВЕЗДА ДУМ-ДУМА",
-      "price": "900€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/vbVK6tB.png",
       "lore": "Требуется уборка после использования.",
@@ -59,7 +59,7 @@
     },
     {
       "title": "ВСТАНИСЛАВ ШИШКИН",
-      "price": "1500€$",
+      "price": "QUEST",
       "tagClass": "t-quest",
       "img": "https://i.imgur.com/6Z6UXQV.png",
       "lore": "Не убивает, но калечит до неузнаваемости.",
@@ -69,112 +69,112 @@
   "medtech": [
     {
       "title": "БУСТЕР ЗДОРОВЬЯ",
-      "price": "300€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/Eml19rj.png",
       "lore": "Потому что здоровье у тебя одно!",
       "desc": "Lorem"
     },
     {
       "title": "ЧЕРНОЕ КРУЖЕВО",
-      "price": "100€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/10qd3ir.png",
       "lore": "Иногда хочется почувствовать себя крутым ублюдком.",
       "desc": "Lorem"
     },
     {
       "title": "ОТСКОК",
-      "price": "150€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/PVg1LNg.png",
       "lore": "Вдох. Выдох. Назад в игру.",
       "desc": "Lorem"
     },
     {
       "title": "АКСОЛОТЛЬ",
-      "price": "1200€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/jo6Novx.png",
       "lore": "Фронтальная кора // Всё самое лучшее — для тех, кто не привык ждать.",
       "desc": "Lorem"
     },
     {
       "title": "КВАНТОВЫЙ \"РОСТОВИЧ\"",
-      "price": "2100€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/USkcKdH.png",
       "lore": "Фронтальная кора // Сдерживаться — для неудачников.",
       "desc": "Lorem"
     },
     {
       "title": "MILITECH \"АПОГЕЙ\"",
-      "price": "3000€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/lSxLT6X.png",
       "lore": "Сандевистан // Официально её не существует. Тайная разработка.",
       "desc": "Lorem"
     },
     {
       "title": "NETDRIVER MK.1",
-      "price": "2500€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/3eRyvCr.png",
       "lore": "Кибердека // Исключительно мощное оружие агентов Сетевого Дозора.",
       "desc": "Lorem"
     },
     {
       "title": "KIROSHI \"КОКАТРИС\"",
-      "price": "1500€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/cnDSaFD.png",
       "lore": "Глаза // Увидь то, что скрыто от глаз.",
       "desc": "Lorem"
     },
     {
       "title": "RARA AVIS",
-      "price": "2000€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/wucO3no.png",
       "lore": "Скелет // Легендарное укрепление костей.",
       "desc": "Lorem"
     },
     {
       "title": "СМАРТ-ЛИНК",
-      "price": "500€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/voPsvn5.png",
       "lore": "Имплант для интеграции с умным оружием.",
       "desc": "Lorem"
     },
     {
       "title": "РЕВУЛЬСОР",
-      "price": "900€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/mtpOhdz.png",
       "lore": "Ко-процессор. Ускоряет обработку данных в кризисных моментах.",
       "desc": "Lorem"
     },
     {
       "title": "ВТОРОЕ СЕРДЦЕ",
-      "price": "2500€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/f3hANnx.png",
       "lore": "Позволяет получить второй шанс на выживание.",
       "desc": "Lorem"
     },
     {
       "title": "ОПТИЧЕСКИЙ КАМУФЛЯЖ",
-      "price": "4000€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/QnI6owY.png",
       "lore": "Делает пользователя полностью невидимым.",
       "desc": "Lorem"
     },
     {
       "title": "УКРЕПЛЁННЫЕ СУХОЖИЛИЯ",
-      "price": "800€$",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/YW8xANL.png",
       "lore": "Биомеханическая соединительная ткань для ног.",
       "desc": "Lorem"
@@ -183,256 +183,256 @@
   "souvenirs": [
     {
       "title": "ЯДРО \"ХИМЕРЫ\"",
-      "price": "1200€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/MISUnxs.png",
       "lore": "Зачем дарить сердце, когда можно подарить всё ещё активное ядро боевого робота!",
       "desc": "Lorem"
     },
     {
       "title": "СУВЕНИРНЫЙ ЗНАЧОК",
-      "price": "450€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/kRl7E2B.png",
       "lore": "Сувенир из лунного города \"Тихо\": носите кусочек Луны с собой!",
       "desc": "Lorem"
     },
     {
       "title": "ШИКАРНЫЙ ПОРТСИГАР",
-      "price": "600€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/51hu8lQ.png",
       "lore": "Классический портсигар с элегантным дизайном.",
       "desc": "Lorem"
     },
     {
       "title": "ЧИП КИБЕРКУЛЬТИСТА",
-      "price": "666€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/9CGBEGb.png",
       "lore": "Даташард, найденный на теле культиста Мальстрёма.",
       "desc": "Lorem"
     },
     {
       "title": "ЗНАК ОТЛИЧИЯ НСША",
-      "price": "750€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/Whbaqi8.png",
       "lore": "Почетный орден, вручаемый президентом.",
       "desc": "Lorem"
     },
     {
       "title": "МИНИ AV ТРАУМЫ ТИМ",
-      "price": "500€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/4k9xt6T.png",
       "lore": "Не можете позволить себе полис? Купите модельку!",
       "desc": "Lorem"
     },
     {
       "title": "ТРАУМА ТИМ \"ПЛАТИНУМ\"",
-      "price": "2000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/FiFnGCl.png",
       "lore": "Скорая, вооружённый эскорт и услуги хирурга - включены.",
       "desc": "Lorem"
     },
     {
       "title": "ЧИП С ЕВРОБАКСАМИ",
-      "price": "300€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/LmgDsTA.png",
       "lore": "Найден, а не украден.",
       "desc": "Lorem"
     },
     {
       "title": "СКИДКА \"АВТОФИКСЕР\"",
-      "price": "600€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/yh85gfS.png",
       "lore": "Активируйте для лучших цен на автомобили!",
       "desc": "Lorem"
     },
     {
       "title": "РОЗОВЫЕ ОЧКИ",
-      "price": "300€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/RGrPch1.png",
       "lore": "Чтобы на разбитые надежды смотрелось веселее!",
       "desc": "Lorem"
     },
     {
       "title": "VIP В \"ОБЛАКА\"",
-      "price": "850€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/XtP3O3M.png",
       "lore": "Гарантирует вход в VIP-зону Clouds.",
       "desc": "Lorem"
     },
     {
       "title": "ЗАПИСЬ САМУРАЙ",
-      "price": "2500€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/91DMTAQ.png",
       "lore": "Стоит целое состояние.",
       "desc": "Lorem"
     },
     {
       "title": "БИЛЕТ В ОДИН КОНЕЦ",
-      "price": "30€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/paIqCJN.png",
       "lore": "Один пассажир. В одну сторону.",
       "desc": "Lorem"
     },
     {
       "title": "ПО КОМ ЗВОНИТ КОЛОКОЛ",
-      "price": "150€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/fK22KGO.png",
       "lore": "Зачитанная до дыр копия культового романа Эрнеста Хемингуэя.",
       "desc": "Lorem"
     },
     {
       "title": "ОФИЦИАЛЬНЫЙ ДОКУМЕНТ",
-      "price": "450€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/O27x9IN.png",
       "lore": "Свидетельство о «Потере при прибытии» для приоритетного груза.",
       "desc": "Lorem"
     },
     {
       "title": "КИБЕРДЕКА БАРТМОССА",
-      "price": "7000€$",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/ryecjyk.png",
       "lore": "Содержит зашифрованные данные.",
       "desc": "Lorem"
     },
     {
       "title": "БРЕЙНДАНС ВЕНЕЦ",
-      "price": "250€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/TRQObLD.png",
       "lore": "Устройство для воспроизведения брейндансов с функцией редактирования.",
       "desc": "Lorem"
     },
     {
       "title": "АЛТАРЬ",
-      "price": "80€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/O7SyvVE.png",
       "lore": "Священное место для духовных практик.",
       "desc": "Lorem"
     },
     {
       "title": "ЛОВЕЦ СНОВ",
-      "price": "55€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/EHvtmLD.png",
       "lore": "Традиционный оберег от злых духов.",
       "desc": "Lorem"
     },
     {
       "title": "ЭКШН-ФИГУРКА",
-      "price": "120€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/YitrlEC.png",
       "lore": "Ниндзя в чёрно-жёлтых одеждах. Похоже на подделку.",
       "desc": "Lorem"
     },
     {
       "title": "ЯЙЦО ИГУАНЫ",
-      "price": "1000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/DMO9TbM.png",
       "lore": "Вылупится через 3 месяца.",
       "desc": "Lorem"
     },
     {
       "title": "ЧИП ЛИМИТА ИМПЛАНТОВ",
-      "price": "1500€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/9F3TzCI.png",
       "lore": "Для тех, кому нужно больше хрома!",
       "desc": "Lorem"
     },
     {
       "title": "ЭНДОТРИЗИН",
-      "price": "150€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/fERaDPO.png",
       "lore": "Лекарство от киберпсихоза с \"чёрного рынка\".",
       "desc": "Lorem"
     },
     {
       "title": "ПРОТОТИП СТРОИТЕЛЯ",
-      "price": "12000€$",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/VGiBmxb.png",
       "lore": "Строитель псевдоэмбриональных клеток. Экспериментальный препарат.",
       "desc": "Lorem"
     },
     {
       "title": "РЕЦИКЛЕРЫ МОЛОЧНОЙ К-ТЫ",
-      "price": "12000€$",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/HTL3TII.png",
       "lore": "Средство для оптимизации анаэробной энергии.",
       "desc": "Lorem"
     },
     {
       "title": "ДЕНДРИТНАЯ ПРОТОПЛАЗМА",
-      "price": "12000€$",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/bxhar8y.png",
       "lore": "Обеспечивает блоки для формирования новых нейронных связей.",
       "desc": "Lorem"
     },
     {
       "title": "МОДУЛЬ ЦЕРБЕРА",
-      "price": "3000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/QFYvKdx.png",
       "lore": "Компонент с расшифрованными алгоритмами системы Цербера.",
       "desc": "Lorem"
     },
     {
       "title": "ЧЁРНАЯ ИКРА",
-      "price": "1000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/WcNS6HN.png",
       "lore": "Превосходный советский деликатес от товарища Коли.",
       "desc": "Lorem"
     },
     {
       "title": "ФЕЙСПЛЕЙТ",
-      "price": "7000€$",
-      "tagClass": "t-legend",
+      "price": "EVENT$",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/yp9dliK.png",
       "lore": "Позволяет копировать внешность, речь и мимику.",
       "desc": "Lorem"
     },
     {
       "title": "КОРПО-ЛОМ",
-      "price": "4000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/yj2FFGx.png",
       "lore": "Устройства для несанкционированного разблокирования имплантов.",
       "desc": "Lorem"
     },
     {
       "title": "MILITECH \"ФЛЭТХЕД\"",
-      "price": "10k€$",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/PSua0bm.png",
       "lore": "Промышленная модель дрона Militech.",
       "desc": "Lorem"
     },
     {
       "title": "БЕЗ НАЗВАНИЯ 18",
-      "price": "8000€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/G7hNiwL.png",
       "lore": "Чрезвычайно ценная картина Бранчези.",
       "desc": "Lorem"
@@ -441,320 +441,320 @@
   "food_drinks": [
     {
       "title": "СОЕВАЯ ПАСТА",
-      "price": "50€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/QzlDIOy.png",
       "lore": "Ударная доза жизненно важных веществ.",
       "desc": "Lorem"
     },
     {
       "title": "КОШАЧИЙ КОРМ",
-      "price": "25€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/S8fK4aA.png",
       "lore": "И ты замурлычешь в два счёта.",
       "desc": "Lorem"
     },
     {
       "title": "БУРРИТО XXL",
-      "price": "100€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/Vln39IT.png",
       "lore": "Он большой. Реально большой.",
       "desc": "Lorem"
     },
     {
       "title": "ПИЦЦА САРАНЧА",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/HQsfFJf.png",
       "lore": "Рой вкуса для настоящих гурманов!",
       "desc": "Lorem"
     },
     {
       "title": "РЕАЛФРУКТ",
-      "price": "80€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/w3Racbq.png",
       "lore": "Никакого маркетинга. Всё настоящее.",
       "desc": "Lorem"
     },
     {
       "title": "HAWT DAWG",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/YzpUOmQ.png",
       "lore": "Самые сочные сосиски и самые упругие булочки!",
       "desc": "Lorem"
     },
     {
       "title": "ГАЛИЦКИЕ ВАРЕНИКИ",
-      "price": "300€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/VWCftNr.png",
       "lore": "Зачем оружие, когда есть вареники?",
       "desc": "Lorem"
     },
     {
       "title": "ГОДЗИЛЛА",
-      "price": "NULL",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://i.imgur.com/62S0Tjl.png",
       "lore": "Совершенства много не бывает.",
       "desc": "Lorem"
     },
     {
       "title": "КАПКЕЙК \"МОЙ СЛАДКИЙ\"",
-      "price": "690€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/2zsKa7o.png",
       "lore": "Поистине райский десерт.",
       "desc": "Lorem"
     },
     {
       "title": "ВОНТОНЫ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/ses3OMh.png",
       "lore": "Лучшие в городе подают в Маленьком Китае.",
       "desc": "Lorem"
     },
     {
       "title": "ТАКО",
-      "price": "100€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/Vf4Hy8P.png",
       "lore": "К чёрту нарезной хлеб. Тако — эталон.",
       "desc": "Lorem"
     },
     {
       "title": "НИГИРИ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/7Pc0EZo.png",
       "lore": "Теперь с улучшенной текстурой риса и нетоксичными красителями!",
       "desc": "Lorem"
     },
     {
       "title": "ОРГИАТИК ОМНИВКУС",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/1bLelS1.png",
       "lore": "Пусть язык сделает всю работу.",
       "desc": "Lorem"
     },
     {
       "title": "ПЛАНТАН ЛИЛУ БИНС",
-      "price": "250€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/nCX0k2o.png",
       "lore": "На вкус как настоящее волшебство.",
       "desc": "Lorem"
     },
     {
       "title": "МИСТЕР УАЙТИ МУТА",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/WKarVtN.png",
       "lore": "БЫСТРЕЕ БЫСТРЕЕ БЫСТРЕ!!!",
       "desc": "Lorem"
     },
     {
       "title": "МУНЧИЗ АНДРОМЕДА",
-      "price": "300€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/BQxIVGT.png",
       "lore": "Перекус из другой галактики!",
       "desc": "Lorem"
     },
     {
       "title": "\"МОЛОЧНЫЙ\" ШОКККОЛАД",
-      "price": "80€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/l9DCvLb.png",
       "lore": "Насыщенный вкус с добавкой витамина С и кальция!",
       "desc": "Lorem"
     },
     {
       "title": "ВОДА",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/RFPpeDH.png",
       "lore": "Чистая вода. Настоящее удовольствие.",
       "desc": "Lorem"
     },
     {
       "title": "REAL WATER (ГАЗ.)",
-      "price": "100€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/4Nwgipn.png",
       "lore": "Дай воде шанс.",
       "desc": "Lorem"
     },
     {
       "title": "ЧАЙ УЛУН",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/9Z3Rl3g.png",
       "lore": "Изысканный вкус. Эксклюзивный выбор.",
       "desc": "Lorem"
     },
     {
       "title": "КОФЕ MATAPANG",
-      "price": "250€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/3jeWhuO.png",
       "lore": "Не задалось утро? Matapang спешит на помощь.",
       "desc": "Lorem"
     },
     {
       "title": "НИКОЛА",
-      "price": "100€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/c6K76Ty.png",
       "lore": "Почувствуй любовь!",
       "desc": "Lorem"
     },
     {
       "title": "CIRRUS COLA КЛАССИК",
-      "price": "125€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/TA2RcVN.png",
       "lore": "Cirrus — почувствуй свободу!",
       "desc": "Lorem"
     },
     {
       "title": "ХРОМАНТИКОРА",
-      "price": "250€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/MHQZ94V.png",
       "lore": "Новый микс каждый раз!",
       "desc": "Lorem"
     },
     {
       "title": "ТЯНЧА КУМКВАТ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/M7PartG.png",
       "lore": "Чувствуешь себя кумкватно?",
       "desc": "Lorem"
     },
     {
       "title": "КАКТУСОВЫЙ СОК",
-      "price": "80€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/z5A9lh4.png",
       "lore": "Пьётся легко и светится в темноте.",
       "desc": "Lorem"
     },
     {
       "title": "К. \"ДЭВИД МАРТИНЕС\"",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/mhS3mH2.png",
       "lore": "Шот водки на льду, добавить НиКолу. Целься высоко и уходи с шумом!",
       "desc": "Lorem"
     },
     {
       "title": "К. \"ДЖЕКИ УЭЛЛС\"",
-      "price": "250€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/cw8iWbt.png",
       "lore": "Водка, сок лайма, имбирное пиво и, самое главное... немного любви.",
       "desc": "Lorem"
     },
     {
       "title": "К. \"ДЖОННИ СИЛЬВЕРХЕНД\"",
-      "price": "300€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/nu0bdjk.png",
       "lore": "Олд-фэшн на текиле с пивом и чили. Для рокера, который всегда шёл до конца.",
       "desc": "Lorem"
     },
     {
       "title": "САКЕ УТАГАВА",
-      "price": "400€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/7bRfTh3.png",
       "lore": "Идеальный подарок для себя.",
       "desc": "Lorem"
     },
     {
       "title": "АРМАНЬЯК МАССИ",
-      "price": "NULL",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/nRtMh6v.png",
       "lore": "Не пей. Наслаждайся.",
       "desc": "Lorem"
     },
     {
       "title": "ШАТО ДЕЛЭН 2012",
-      "price": "600€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/4SYZJ4m.png",
       "lore": "Всего 200 бутылок. Успей взять свою.",
       "desc": "Lorem"
     },
     {
       "title": "ТРЕЙЛЕРНОЕ ПИВО",
-      "price": "1500€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/5LXUz7v.png",
       "lore": "Дрожжи так и брызжут.",
       "desc": "Lorem"
     },
     {
       "title": "САМОГОН",
-      "price": "100€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/CYkSB9Q.png",
       "lore": "Кислое послевкусие и размытые воспоминания.",
       "desc": "Lorem"
     },
     {
       "title": "ВОДКА \"БОЛЬШЕВИК\"",
-      "price": "180€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/LMyCHsq.png",
       "lore": "С привкусом классовой революции.",
       "desc": "Lorem"
     },
     {
       "title": "ТЕКИЛА ЭСПЕСИАЛЬ",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/h046B3h.png",
       "lore": "Почувствуй удар агавы.",
       "desc": "Lorem"
     },
     {
       "title": "БРОСЕФ ЛАГЕР",
-      "price": "100€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/8P6Cqwf.png",
       "lore": "Пошло оно всё. Просто выпей лагера.",
       "desc": "Lorem"
     },
     {
       "title": "АБ-СИНТ",
-      "price": "400€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/0riD4w8.png",
       "lore": "Будь богемным.",
       "desc": "Lorem"
     },
     {
       "title": "ДОНАХИ",
-      "price": "300€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/NfLz7aa.png",
       "lore": "Твой конец радуги.",
       "desc": "Lorem"
     },
     {
-      "title": "СЕНТСОН ТОТОЧТИН",
-      "price": "500€$",
-      "tagClass": "t-rare",
+      "title": "СЕНТЦОН ТОТОЧТИН",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/JNjkmd0.png",
       "lore": "Дистиллирован из самых синих агав.",
       "desc": "Lorem"
@@ -763,256 +763,256 @@
   "flea_market": [
     {
       "title": "ПАТЧ С ЯГУАРОМ",
-      "price": "70€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/u4fgpjV.png",
       "lore": "Символ альфа-хищников Найт-Сити!",
       "desc": "Lorem"
     },
     {
       "title": "ДЖОКЕР",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/hNplArX.png",
       "lore": "Туз всё ещё спрятан у кого-то в рукаве.",
       "desc": "Lorem"
     },
     {
       "title": "ПЕРСТЕНЬ-ПЕЧАТКА NCU",
-      "price": "100€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/DCSxE8u.png",
       "lore": "Похоже, принадлежит кому-то, кто был в студенческом братстве.",
       "desc": "Lorem"
     },
     {
       "title": "СИГАРА",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/HbFTDJL.png",
       "lore": "Скручена как положено – на чьих-то потных бёдрах.",
       "desc": "Lorem"
     },
     {
       "title": "АНТИСТРЕСС",
-      "price": "40€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/LiYRW6B.png",
       "lore": "Говорят, эффективнее таблеток. И дешевле.",
       "desc": "Lorem"
     },
     {
       "title": "NDA",
-      "price": "150€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/JubtA2o.png",
       "lore": "Документ, который накладывает множество ограничений.",
       "desc": "Lorem"
     },
     {
       "title": "ЧЁТКИ",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/88B5gZf.png",
       "lore": "Кажется, их очень любили и берегли.",
       "desc": "Lorem"
     },
     {
       "title": "БАЛЛОНЧИК С КРАСКОЙ",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/Cbd4LgD.png",
       "lore": "Если можешь украсить свой дом, значит, можешь украсить свой город.",
       "desc": "Lorem"
     },
     {
       "title": "ПАЧКА СИГАРЕТ",
-      "price": "40€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/CMEtGRk.png",
       "lore": "Суперкрепкие, тройной фильтр. \"Морли\" - для настоящих зависимых.",
       "desc": "Lorem"
     },
     {
       "title": "ПРЕЗЕРВАТИВЫ",
-      "price": "30€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/6wAsv4a.png",
       "lore": "Ультратонкие, ультрапрочные.",
       "desc": "Lorem"
     },
     {
       "title": "ЖВАЧКА",
-      "price": "20€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/sLrJpdY.png",
       "lore": "Пряный вкус корицы. Якобы без канцерогенов.",
       "desc": "Lorem"
     },
     {
       "title": "ДЕЗИНФЕКТАНТ",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/neYAHrH.png",
       "lore": "Убивает 99,9% всякой дряни.",
       "desc": "Lorem"
     },
     {
       "title": "ВОЕННЫЙ НОЖ",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/yU0xhIP.png",
       "lore": "Всё самое нужное в одном: нож, фонарик, открывалка.",
       "desc": "Lorem"
     },
     {
       "title": "ФЛУОРЕСЦЕНТНАЯ ПОМАДА",
-      "price": "70€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/5pydThX.png",
       "lore": "Губы не лгут.",
       "desc": "Lorem"
     },
     {
       "title": "КАРТА НСША",
-      "price": "100€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/kqn0hmJ.png",
       "lore": "Аналоговая. Невзламываемая.",
       "desc": "Lorem"
     },
     {
       "title": "НАРУЧНИКИ",
-      "price": "60€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/xCBr1IW.png",
       "lore": "Применяются во многих ситуациях, большинство из них – сексуальные.",
       "desc": "Lorem"
     },
     {
       "title": "ШИПОВАННЫЙ ДИЛДО",
-      "price": "80€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/tBmvXTP.png",
       "lore": "Для тех моментов, когда хочется чего-то особенного...",
       "desc": "Lorem"
     },
     {
       "title": "АНАЛЬНЫЙ ЭКСПРЕСС",
-      "price": "120€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/ui4hBNQ.png",
       "lore": "Все на борт! Первая остановка – Простатная Вершина!",
       "desc": "Lorem"
     },
     {
       "title": "ЗНАЧОК НСША",
-      "price": "10€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/I0w1CZy.png",
       "lore": "Благослови тебя Бог, и да благословит Он Новые Соединённые Штаты!",
       "desc": "Lorem"
     },
     {
       "title": "ОТКРЫТКА ИЗ NC",
-      "price": "30€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/AWitQJv.png",
       "lore": "Привет из Города Мечты!",
       "desc": "Lorem"
     },
     {
       "title": "ОМАМОРИ",
-      "price": "20€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/4TxYSAi.png",
       "lore": "Когда нужна защита, но на страховку Trauma Team денег нет.",
       "desc": "Lorem"
     },
     {
       "title": "КАЛАВЕРА",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/rsJg0wg.png",
       "lore": "Неотъемлемый атрибут для каждого Дня Мёртвых.",
       "desc": "Lorem"
     },
     {
       "title": "МОНТИРОВКА",
-      "price": "60€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/fOsfDmk.png",
       "lore": "Подходит, чтобы снять колесо и разбить парочку черепов.",
       "desc": "Lorem"
     },
     {
       "title": "ЧЕРЕП ВОРОНА",
-      "price": "450€$",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://i.imgur.com/f9jkY7J.png",
       "lore": "Либо достался от покойной бабули, либо у кого-то дофига лишних денег.",
       "desc": "Lorem"
     },
     {
       "title": "КОЛЬЦО С РАКУШКОЙ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/U83OJBw.png",
       "lore": "На 100% натуральное. Слышишь, как шумит океан?",
       "desc": "Lorem"
     },
     {
       "title": "ПЛАСТИКОВЫЙ БРАСЛЕТ",
-      "price": "50€$",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/b7RlfCN.png",
       "lore": "Яркость, от которой глаза кровоточат. Прими китч.",
       "desc": "Lorem"
     },
     {
       "title": "СОЛДАТСКИЕ ЖЕТОНЫ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/vMNkLPg.png",
       "lore": "Знак настоящего героя.",
       "desc": "Lorem"
     },
     {
       "title": "ЧОКЕР С КОЛЬЦОМ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/sIIYq4J.png",
       "lore": "Есть элегантный способ носить бархат, а есть правильный.",
       "desc": "Lorem"
     },
     {
       "title": "ПОДВЕСКА С КАНДЗИ",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/n7K4ZzX.png",
       "lore": "Амулет на удачу… а может ли он заодно отпугивать зло?",
       "desc": "Lorem"
     },
     {
       "title": "БРОШЬ САНТА-МУЭРТЕ",
-      "price": "250€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/EYm7vz2.png",
       "lore": "Для тех, кто хочет, чтобы смерть была всегда рядом.",
       "desc": "Lorem"
     },
     {
       "title": "ЗОЛОТОЙ КРЕСТ",
-      "price": "150€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/MPMzVK2.png",
       "lore": "Нестареющая классика для истинно верующих.",
       "desc": "Lorem"
     },
     {
       "title": "ЗОЛОТАЯ ЦЕПЬ",
-      "price": "200€$",
-      "tagClass": "t-green",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://i.imgur.com/4uLnBAx.png",
       "lore": "Символ статуса, силы и вкуса. Хотя с последним можно поспорить.",
       "desc": "Lorem"
@@ -1021,48 +1021,48 @@
   "achievements": [
     {
       "title": "WELCOME TO NC",
-      "price": "COMMON",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t89348.jpg",
       "lore": "",
       "desc": "За принятую анкету."
     },
     {
       "title": "NEWBIE",
-      "price": "COMMON",
-      "tagClass": "t-common",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t648852.jpg",
       "lore": "",
       "desc": "На форуме месяц."
     },
     {
       "title": "OLD BUT[T] GOLD",
-      "price": "RARE",
-      "tagClass": "t-blue",
+      "price": "FREE",
+      "tagClass": "t-free",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t957592.jpg",
       "lore": "",
       "desc": "На форуме больше года."
     },
     {
       "title": "ROACH: BONUS LVL",
-      "price": "EVENT",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t317316.jpg",
       "lore": "",
       "desc": "За приятные форумные подарки любимым соигрокам во имя тыквенного спаса 2025!"
     },
     {
       "title": "COMPLETIONIST",
-      "price": "LEGEND",
-      "tagClass": "t-legend",
+      "price": "EVENT",
+      "tagClass": "t-event",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t615644.jpg",
       "lore": "",
       "desc": "За выполнение челленджа тыквенного спаса 2025 на 110%"
     },
     {
       "title": "TURBO LOVER",
-      "price": "EVENT",
-      "tagClass": "t-rare",
+      "price": "QUEST",
+      "tagClass": "t-quest",
       "img": "https://upforme.ru/uploads/001c/98/42/2/t295047.png",
       "lore": "",
       "desc": "За участие в ДСВ-2026"
@@ -1070,7 +1070,7 @@
     {
       "title": "404",
       "price": "NULL",
-      "tagClass": "t-common",
+      "tagClass": "t-free",
       "img": "https://upforme.ru/uploads/001c/1a/06/2/13242.png",
       "lore": "",
       "desc": "снимать штаны и бегать"
@@ -1078,7 +1078,7 @@
     {
       "title": "404",
       "price": "NULL",
-      "tagClass": "t-common",
+      "tagClass": "t-free",
       "img": "https://upforme.ru/uploads/001c/1a/06/2/13242.png",
       "lore": "",
       "desc": "снимать штаны и бегать"
