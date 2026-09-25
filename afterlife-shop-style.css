@@ -130,6 +130,24 @@
     border-top-color: currentColor;
 }
 
+.cp-action-btn {
+  margin-top: 8px;
+  width: 100%;
+  cursor: pointer;
+  background: var(--a-yel, #f0e68c);
+  color: #000;
+  border: none;
+  padding: 5px 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 1px;
+  transition: opacity 0.2s;
+}
+.cp-action-btn:hover {
+  opacity: 0.85;
+}
+
 /* [4] CONTENT WRAPPER */
 .cp-list {
     display: none; 
