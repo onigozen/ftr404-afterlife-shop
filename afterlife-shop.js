@@ -2,12 +2,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   const root = document.getElementById('afterlife-shop-root');
   if (!root) return;
 
-  // Загрузка JSON через CDN jsDelivr (используем @main, чтобы изменения подтягивались автоматически)
   const DATA_URL = 'https://cdn.jsdelivr.net/gh/onigozen/ftr404-afterlife-shop@main/afterlife-shop-items.json';
 
   let data = {};
   try {
-    const response = await fetch(DATA_URL + '?v=' + Date.now()); // ?v= обходит кэш браузера
+    const response = await fetch(DATA_URL + '?v=' + Date.now());
     data = await response.json();
   } catch (err) {
     console.error('Ошибка загрузки данных Посмертия:', err);
@@ -15,18 +14,18 @@ document.addEventListener('DOMContentLoaded', async function() {
     return;
   }
 
-  // Конфигурация вкладок аккордеона
+  // Конфигурация вкладок с флагом rendered
   const tabConfigs = [
-    { id: 'general', title: 'ИНФОРМАЦИЯ', active: true, info: data.general_info, type: 'info' },
-    { id: 'weapons', title: 'Оружейная Лавка', info: "<b>NETDIR://[ПУШКИ]</b>", items: data.weapons, mode: 'mode-shop', type: 'shop' },
-    { id: 'medtech', title: 'МЕДТЕХИ И РИПЕРЫ', info: "<b>NETDIR://[ИМПЛАНТЫ_И_РАСХОДНИКИ]</b>", items: data.medtech, mode: 'mode-shop', type: 'shop' },
-    { id: 'souvenirs', title: 'СУВЕНИРЫ И РОСКОШЬ', info: "<b>NETDIR://[СУВЕНИРЫ]</b>", items: data.souvenirs, mode: 'mode-shop', type: 'shop' },
-    { id: 'food_drinks', title: 'ЕДА И НАПИТКИ', info: "<b>NETDIR://[ЕДА_И_НАПИТКИ]</b>", items: data.food_drinks, mode: 'mode-shop', type: 'shop' },
-    { id: 'flea_market', title: 'БАРАХОЛКА', info: "<b>NETDIR://[БАРАХОЛКА]</b>", items: data.flea_market, mode: 'mode-shop', type: 'shop' },
-    { id: 'achievements', title: 'АЧИВКИ', items: data.achievements, mode: 'mode-achiv', type: 'achiv' }
+    { id: 'general', title: 'ИНФОРМАЦИЯ', active: true, info: data.general_info, type: 'info', rendered: false },
+    { id: 'weapons', title: 'Оружейная Лавка', info: "<b>NETDIR://[ПУШКИ]</b>", items: data.weapons, mode: 'mode-shop', type: 'shop', rendered: false },
+    { id: 'medtech', title: 'МЕДТЕХИ И РИПЕРЫ', info: "<b>NETDIR://[ИМПЛАНТЫ_И_РАСХОДНИКИ]</b>", items: data.medtech, mode: 'mode-shop', type: 'shop', rendered: false },
+    { id: 'souvenirs', title: 'СУВЕНИРЫ И РОСКОШЬ', info: "<b>NETDIR://[СУВЕНИРЫ]</b>", items: data.souvenirs, mode: 'mode-shop', type: 'shop', rendered: false },
+    { id: 'food_drinks', title: 'ЕДА И НАПИТКИ', info: "<b>NETDIR://[ЕДА_И_НАПИТКИ]</b>", items: data.food_drinks, mode: 'mode-shop', type: 'shop', rendered: false },
+    { id: 'flea_market', title: 'БАРАХОЛКА', info: "<b>NETDIR://[БАРАХОЛКА]</b>", items: data.flea_market, mode: 'mode-shop', type: 'shop', rendered: false },
+    { id: 'achievements', title: 'АЧИВКИ', items: data.achievements, mode: 'mode-achiv', type: 'achiv', rendered: false }
   ];
 
-  // Генератор карточек
+  // Шаблон карточки
   function createCardHTML(item, type) {
     const isAchiv = type === 'achiv';
     const btnLabel = isAchiv ? 'Забрать ачивку' : 'Заказать';
@@ -41,7 +40,6 @@ document.addEventListener('DOMContentLoaded', async function() {
       <div class="cp-card">
         <div class="cp-tag ${item.tagClass}">${item.price}</div>
         ${loreHTML}
-        <!-- ТУТ: Добавлены lazy loading и асинхронное декодирование -->
         <div class="cp-img"><img src="${item.img}" alt="${item.title}" loading="lazy" decoding="async"></div>
         <div class="cp-title">${item.title}</div>
         <div class="cp-arrow"></div>
@@ -56,7 +54,25 @@ document.addEventListener('DOMContentLoaded', async function() {
     `;
   }
 
-  // Сборка общей структуры HTML
+  // Ленивый рендер конкретной вкладки по требованию
+  function renderTabContent(tab) {
+    if (tab.rendered) return; // Не рендерим повторно, если карточки уже созданы
+
+    const targetContainer = document.getElementById(`cp-grid-${tab.id}`);
+    if (!targetContainer) return;
+
+    if (tab.items && tab.items.length) {
+      let cardsHTML = '';
+      tab.items.forEach(item => {
+        cardsHTML += createCardHTML(item, tab.type);
+      });
+      targetContainer.innerHTML = cardsHTML;
+    }
+
+    tab.rendered = true; // Отмечаем вкладку как готовую
+  }
+
+  // 1. Построение легкого каркаса (только кнопки и пустые блоки)
   let html = '<div class="cp-box">';
 
   tabConfigs.forEach(tab => {
@@ -65,7 +81,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
     html += `
       <div class="cp-tab">
-        <div class="cp-btn ${isActive}">${tab.title} <i class="cp-mark"></i></div>
+        <div class="cp-btn ${isActive}" data-tab-id="${tab.id}">${tab.title} <i class="cp-mark"></i></div>
         <div class="cp-list" ${displayStyle}>`;
 
     if (tab.type === 'info') {
@@ -73,17 +89,13 @@ document.addEventListener('DOMContentLoaded', async function() {
         <div class="cp-info" style="text-align: left; font-size: 13px; background: transparent;">
           ${tab.info}
         </div>`;
+      tab.rendered = true;
     } else {
       if (tab.info) {
         html += `<div class="cp-info">${tab.info}</div>`;
       }
-      if (tab.items && tab.items.length) {
-        html += `<div class="cp-grid ${tab.mode}">`;
-        tab.items.forEach(item => {
-          html += createCardHTML(item, tab.type);
-        });
-        html += `</div>`;
-      }
+      // Оставляем контейнер пустым до клика!
+      html += `<div class="cp-grid ${tab.mode}" id="cp-grid-${tab.id}"></div>`;
     }
 
     html += `
@@ -94,14 +106,23 @@ document.addEventListener('DOMContentLoaded', async function() {
   html += '</div>';
   root.innerHTML = html;
 
-  // Обработка кликов (Аккордеон + Заказ в 1 клик)
+  // 2. Инициализация стартовой активной вкладки (если она содержит карточки)
+  tabConfigs.forEach(tab => {
+    if (tab.active && !tab.rendered) {
+      renderTabContent(tab);
+    }
+  });
+
+  // 3. Делегирование кликов
   root.addEventListener('click', function(e) {
-    // 1. Клики по переключению вкладок
+    // Клики по вкладкам
     const btn = e.target.closest('.cp-btn');
     if (btn) {
       e.preventDefault();
       const list = btn.nextElementSibling;
       const isOpened = btn.classList.contains('i_active');
+      const tabId = btn.dataset.tabId;
+      const tabConfig = tabConfigs.find(t => t.id === tabId);
 
       root.querySelectorAll('.cp-btn.i_active').forEach(activeBtn => {
         if (activeBtn !== btn) {
@@ -118,6 +139,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         list.style.display = 'none';
         btn.classList.remove('i_active');
       } else {
+        // РЕНДЕР КАРТОЧЕК ВКЛАДКИ СТРОГО ПРИ КЛИКЕ
+        if (tabConfig && !tabConfig.rendered) {
+          renderTabContent(tabConfig);
+        }
+
         list.style.display = 'block';
         btn.classList.add('i_active');
 
@@ -137,7 +163,7 @@ document.addEventListener('DOMContentLoaded', async function() {
       return;
     }
 
-    // 2. Клики по кнопкам быстрых заявок
+    // Клики по кнопкам заказа
     const actionBtn = e.target.closest('.cp-action-btn');
     if (actionBtn) {
       e.preventDefault();
