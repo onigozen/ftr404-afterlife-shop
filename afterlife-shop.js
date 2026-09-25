@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Конфигурация вкладок аккордеона
   const tabConfigs = [
-    { id: 'general', title: 'ОБЩИЙ РАЗДЕЛ', active: true, info: data.general_info, type: 'info' },
-    { id: 'weapons', title: 'Оружейная Лавка', info: "Эксклюзивные предметы. <a href='http://ftr404.rusff.me/viewtopic.php?id=17'>Агенты Чёрного Рынка</a> ждут заказы.<br>", items: data.weapons, mode: 'mode-shop', type: 'shop' },
+    { id: 'general', title: 'ИНФОРМАЦИЯ', active: true, info: data.general_info, type: 'info' },
+    { id: 'weapons', title: 'Оружейная Лавка', info: "<b>NETDIR://[ПУШКИ]</b>", items: data.weapons, mode: 'mode-shop', type: 'shop' },
     { id: 'medtech', title: 'МЕДТЕХИ И РИПЕРЫ', info: "<b>NETDIR://[ИМПЛАНТЫ_И_РАСХОДНИКИ]</b>", items: data.medtech, mode: 'mode-shop', type: 'shop' },
-    { id: 'souvenirs', title: 'СУВЕНИРЫ И РОСКОШЬ', info: "<b>NETDIR://[ЧЕРНЫЙ_РЫНОК_И_СУВЕНИРЫ]</b>", items: data.souvenirs, mode: 'mode-shop', type: 'shop' },
+    { id: 'souvenirs', title: 'СУВЕНИРЫ И РОСКОШЬ', info: "<b>NETDIR://[СУВЕНИРЫ]</b>", items: data.souvenirs, mode: 'mode-shop', type: 'shop' },
     { id: 'food_drinks', title: 'ЕДА И НАПИТКИ', info: "<b>NETDIR://[ЕДА_И_НАПИТКИ]</b>", items: data.food_drinks, mode: 'mode-shop', type: 'shop' },
     { id: 'flea_market', title: 'БАРАХОЛКА', info: "<b>NETDIR://[БАРАХОЛКА]</b>", items: data.flea_market, mode: 'mode-shop', type: 'shop' },
     { id: 'achievements', title: 'АЧИВКИ', items: data.achievements, mode: 'mode-achiv', type: 'achiv' }
@@ -41,7 +41,8 @@ document.addEventListener('DOMContentLoaded', async function() {
       <div class="cp-card">
         <div class="cp-tag ${item.tagClass}">${item.price}</div>
         ${loreHTML}
-        <div class="cp-img"><img src="${item.img}" alt="${item.title}"></div>
+        <!-- ТУТ: Добавлены lazy loading и асинхронное декодирование -->
+        <div class="cp-img"><img src="${item.img}" alt="${item.title}" loading="lazy" decoding="async"></div>
         <div class="cp-title">${item.title}</div>
         <div class="cp-arrow"></div>
         <div class="cp-desc">${descPrefix}${item.desc}</div>
@@ -95,7 +96,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Обработка кликов (Аккордеон + Заказ в 1 клик)
   root.addEventListener('click', function(e) {
-    // 1. Клики по переключению вкладок (перенесено из оригинала)
+    // 1. Клики по переключению вкладок
     const btn = e.target.closest('.cp-btn');
     if (btn) {
       e.preventDefault();
