@@ -185,8 +185,8 @@
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
 }
 
-.cp-grid.mode-shop   { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
-.cp-grid.mode-achiv  { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); }
+.cp-grid.mode-shop   {grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));}
+.cp-grid.mode-achiv  {grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));}
 .cp-grid.mode-icon   { grid-template-columns: repeat(auto-fill, minmax(75px, 1fr)); }
 .cp-grid.mode-banner { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
 .cp-grid.mode-cover  { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
@@ -194,14 +194,14 @@
 /* [6] CARD (GRID LAYOUT) */
 .cp-card {
     position: relative;
-    background: var(--c-bg); 
+    background: var(--c-bg);
     border: 1px solid var(--a-bor);
     display: grid;
-    grid-template-rows: 1fr auto; 
-    width: 100%; 
+    grid-template-rows: 1fr auto;
+    width: 100%;
     height: 100%;
-    padding: 1px; 
-    clip-path: var(--clip-card); 
+    padding: 1px;
+    clip-path: var(--clip-card);
     transition: var(--anim);
 }
 
@@ -243,25 +243,25 @@
 
 /* [8] DESCRIPTION */
 .cp-desc {
-    position: absolute; 
+    position: absolute;
     top: 25%;
     left: 0;
     bottom: 20%;
-    width: 100%; 
-    height: auto; 
-    padding: 5px 5px 20px 5px; 
-    font-size: 0.6rem; 
-    color: var(--c-txt); 
+    width: 100%;
+    height: auto;
+    padding: 5px 5px 20px 5px;
+    font-size: 0.8rem;
+    color: var(--c-txt);
     text-align: left;
-    opacity: 0; 
+    opacity: 0;
     transform: translateY(10px);
-    transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1); 
-    z-index: 2; 
-    background: rgba(19, 19, 22, 0.95); 
-    overflow-y: auto; 
-    pointer-events: none; 
-    overflow-wrap: break-word; 
-    hyphens: auto; 
+    transition: 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
+    z-index: 2;
+    background: rgba(19, 19, 22, 0.95);
+    overflow-y: auto;
+    pointer-events: none;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
 .cp-title:hover ~ .cp-desc, 
@@ -332,16 +332,17 @@
 
 .cp-lore-popup {
     position: absolute;
-    top: 100%;
-    right: -1px;
-    width: 123px;
+    top: calc(100% + 4px);
+    right: 0;
+    width: max-content;
+    max-width: 150px;
     height: auto;
     background: rgba(0, 0, 0, 0.90);
     border: 1px solid var(--a-blue);
     padding: 5px 8px;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     font-weight: lighter;
-    line-height: 1;
+    line-height: 1.2;
     color: #fff;
     text-align: left;
     white-space: normal; 
