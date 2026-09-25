@@ -431,6 +431,7 @@
     transform: scale(1.1);
     filter: saturate(150%) brightness(110%);
     z-index: 3;
+   content-visibility: auto;
 }
 
 /* -- Mode: STANDARD -- */
