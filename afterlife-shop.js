@@ -26,33 +26,37 @@ document.addEventListener('DOMContentLoaded', async function() {
   ];
 
   // Шаблон карточки
-  function createCardHTML(item, type) {
-    const isAchiv = type === 'achiv';
-    const btnLabel = isAchiv ? 'Забрать ачивку' : 'Заказать';
-    const descPrefix = isAchiv ? '<b>Условие:</b> ' : '<b>Получить:</b> ';
-    
-    const loreHTML = item.lore ? `
-      <div class="cp-info-icon">i
-        <div class="cp-lore-popup"><i>${item.lore}</i></div>
-      </div>` : '';
+function createCardHTML(item, type) {
+  const isAchiv = type === 'achiv';
+  const btnLabel = isAchiv ? 'Забрать ачивку' : 'Заказать';
+  const descPrefix = isAchiv ? '<b>Условие:</b> ' : '<b>Получить:</b> ';
+  
+  const loreHTML = item.lore ? `
+    <div class="cp-info-icon">i
+      <div class="cp-lore-popup"><i>${item.lore}</i></div>
+    </div>` : '';
 
-    return `
-      <div class="cp-card">
-        <div class="cp-tag ${item.tagClass}">${item.price}</div>
-        ${loreHTML}
-        <div class="cp-img"><img src="${item.img}" alt="${item.title}" loading="lazy" decoding="async"></div>
-        <div class="cp-title">${item.title}</div>
-        <div class="cp-arrow"></div>
-        <div class="cp-desc">${descPrefix}${item.desc}</div>
-        <button class="cp-action-btn" 
-                data-type="${type}" 
-                data-title="${item.title}" 
-                data-price="${item.price}">
-          ${btnLabel}
-        </button>
-      </div>
-    `;
-  }
+  // Экранируем кавычки для безопасной передачи в дата-атрибут
+  const safeDesc = (item.desc || '').replace(/"/g, '&quot;');
+
+  return `
+    <div class="cp-card">
+      <div class="cp-tag ${item.tagClass}">${item.price}</div>
+      ${loreHTML}
+      <div class="cp-img"><img src="${item.img}" alt="${item.title}" loading="lazy" decoding="async"></div>
+      <div class="cp-title">${item.title}</div>
+      <div class="cp-arrow"></div>
+      <div class="cp-desc">${descPrefix}${item.desc}</div>
+      <button class="cp-action-btn" 
+              data-type="${type}" 
+              data-title="${item.title}" 
+              data-price="${item.price}"
+              data-desc="${safeDesc}">
+        ${btnLabel}
+      </button>
+    </div>
+  `;
+}
 
   // Ленивый рендер конкретной вкладки по требованию
   function renderTabContent(tab) {
@@ -163,27 +167,29 @@ document.addEventListener('DOMContentLoaded', async function() {
       return;
     }
 
-    // Клики по кнопкам заказа
-    const actionBtn = e.target.closest('.cp-action-btn');
-    if (actionBtn) {
-      e.preventDefault();
-      const type = actionBtn.dataset.type;
-      const title = actionBtn.dataset.title;
-      const price = actionBtn.dataset.price;
+// Клики по кнопкам быстрого заказа
+const actionBtn = e.target.closest('.cp-action-btn');
+if (actionBtn) {
+  e.preventDefault();
+  const type = actionBtn.dataset.type;
+  const title = actionBtn.dataset.title;
+  const price = actionBtn.dataset.price;
+  const desc = actionBtn.dataset.desc; // <--- Получаем условие/описание
 
-      const replyField = document.querySelector('#main-reply') || document.querySelector('textarea[name="req_message"]');
-      if (!replyField) return;
+  const replyField = document.querySelector('#main-reply') || document.querySelector('textarea[name="req_message"]');
+  if (!replyField) return;
 
-      let template = '';
-      if (type === 'achiv') {
-        template = `[b]Название ачивки:[/b] ${title}\n[b]Получатель:[/b] \n[b]Пруфы:[/b] `;
-      } else {
-        template = `[b]Что нужно:[/b] ${title} (${price})\n[b]Получатель:[/b] \n[b]Сообщение к подарку:[/b] \n[b]Анонимность:[/b] нет`;
-      }
+  let template = '';
+  if (type === 'achiv') {
+    // Вставляем условие ачивки сразу в пост
+    template = `[b]Название ачивки:[/b] ${title}\n[b]Условие:[/b] ${desc}\n[b]Получатель:[/b] \n[b]Пруфы:[/b] `;
+  } else {
+    template = `[b]Что нужно:[/b] ${title} (${price})\n[b]Получатель:[/b] \n[b]Сообщение к подарку:[/b] \n[b]Анонимность:[/b] нет`;
+  }
 
-      replyField.value = template;
-      replyField.focus();
-      replyField.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+  replyField.value = template;
+  replyField.focus();
+  replyField.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
   });
 });
